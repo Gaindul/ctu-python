@@ -9,7 +9,7 @@ while RemainingTries>0:
     GuessDifference=abs(RandomInt-Guess)
     if Guess==RandomInt:
         print("You Win!!")
-        exit()
+        quit()
     elif GuessDifference<3:
         print("Your Guess is close")
     RemainingTries-=1
